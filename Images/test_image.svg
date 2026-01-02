@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arkaplan -->
+  <rect width="640" height="480" fill="#87CEEB"/>
+  
+  <!-- Araba -->
+  <rect x="100" y="300" width="200" height="80" fill="#FF6B6B" stroke="#000" stroke-width="2"/>
+  <rect x="120" y="280" width="160" height="40" fill="#FF6B6B" stroke="#000" stroke-width="2"/>
+  <circle cx="140" cy="390" r="25" fill="#333"/>
+  <circle cx="260" cy="390" r="25" fill="#333"/>
+  <rect x="130" y="290" width="40" height="25" fill="#87CEEB" stroke="#000"/>
+  <rect x="190" y="290" width="40" height="25" fill="#87CEEB" stroke="#000"/>
+  <rect x="250" y="290" width="20" height="25" fill="#87CEEB" stroke="#000"/>
+  
+  <!-- Kişi -->
+  <circle cx="400" cy="320" r="20" fill="#FFDBAC"/>
+  <rect x="385" y="340" width="30" height="60" fill="#4ECDC4"/>
+  <rect x="375" y="350" width="15" height="40" fill="#FFDBAC"/>
+  <rect x="410" y="350" width="15" height="40" fill="#FFDBAC"/>
+  <rect x="390" y="400" width="10" height="30" fill="#654321"/>
+  <rect x="400" y="400" width="10" height="30" fill="#654321"/>
+  
+  <!-- Köpek -->
+  <ellipse cx="500" cy="380" rx="40" ry="20" fill="#8B4513"/>
+  <circle cx="480" cy="370" r="15" fill="#8B4513"/>
+  <circle cx="475" cy="365" r="3" fill="#000"/>
+  <ellipse cx="465" cy="375" rx="8" ry="4" fill="#8B4513"/>
+  <ellipse cx="485" cy="375" rx="8" ry="4" fill="#8B4513"/>
+  <rect x="520" y="375" width="20" height="4" fill="#8B4513"/>
+  
+  <!-- Bisiklet -->
+  <circle cx="200" cy="200" r="30" fill="none" stroke="#000" stroke-width="3"/>
+  <circle cx="280" cy="200" r="30" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="200" y1="200" x2="240" y2="170" stroke="#000" stroke-width="3"/>
+  <line x1="240" y1="170" x2="280" y2="200" stroke="#000" stroke-width="3"/>
+  <line x1="240" y1="170" x2="240" y2="150" stroke="#000" stroke-width="3"/>
+  <line x1="235" y1="150" x2="245" y2="150" stroke="#000" stroke-width="3"/>
+  <line x1="220" y1="180" x2="260" y2="180" stroke="#000" stroke-width="2"/>
+  
+  <!-- Metin etiketleri -->
+  <text x="150" y="450" font-family="Arial" font-size="14" fill="#000">Araba</text>
+  <text x="380" y="450" font-family="Arial" font-size="14" fill="#000">Kişi</text>
+  <text x="480" y="450" font-family="Arial" font-size="14" fill="#000">Köpek</text>
+  <text x="220" y="250" font-family="Arial" font-size="14" fill="#000">Bisiklet</text>
+</svg>
